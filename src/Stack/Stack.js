@@ -1,17 +1,21 @@
-class Stack {
-  storage = []
+function Stack() {
+  this._stack = []
+}
 
-  push = val => {
-    this.storage.push(val)
-  }
+Stack.prototype.push = function(x) {
+  this._stack.push(x)
+}
 
-  pop = () => {
-    this.storage.pop()
-  }
+Stack.prototype.pop = function() {
+  return this._stack.pop()
+}
 
-  size = () => {
-    this.storage.length
-  }
+Stack.prototype.peek = function() {
+  return this._stack[this._stack.length - 1]
+}
+
+Stack.prototype.size = function() {
+  return this._stack.length
 }
 
 export default Stack

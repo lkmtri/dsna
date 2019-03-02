@@ -1,17 +1,21 @@
-class Queue {
-  storage = []
+function Queue() {
+  this._queue = []
+}
 
-  enqueue = val => {
-    this.storage.push(val)
-  }
+Queue.prototype.enqueue = function(x) {
+  this._queue.push(x)
+}
 
-  dequeue = val => {
-    return this.storage.shift()
-  }
+Queue.prototype.dequeue = function() {
+  return this._queue.shift()
+}
 
-  size = () => {
-    return this.storage.length
-  }
+Queue.prototype.peek = function() {
+  return this._queue[0]
+}
+
+Queue.prototype.size = function() {
+  return this._queue.length
 }
 
 export default Queue
