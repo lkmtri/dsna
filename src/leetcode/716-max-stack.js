@@ -1,4 +1,4 @@
-// LeetCode 716 (https://leetcode.com/problems/max-stack)
+// https://leetcode.com/problems/max-stack
 import Stack from '../Stack'
 
 function MaxStack() {

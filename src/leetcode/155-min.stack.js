@@ -1,4 +1,4 @@
-// LeetCode 155 (https://leetcode.com/problems/min-stack/)
+// https://leetcode.com/problems/min-stack/
 function MinStack() {
   this._stack = []
   this._min = []
