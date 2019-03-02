@@ -1,0 +1,10 @@
+{
+  "editor.tabSize": 2,
+  "prettier.arrowParens": "always",
+  "editor.formatOnSave": true,
+  "prettier.semi": false,
+  "prettier.singleQuote": true,
+  "prettier.requireConfig": true,
+  "eslint.packageManager": "yarn",
+  "prettier.eslintIntegration": true
+}
