@@ -1,4 +1,4 @@
-import Stack from '../Stack'
+import Stack from '../../Stack'
 
 const find132pattern = nums => {
   if (nums.length < 3) return false

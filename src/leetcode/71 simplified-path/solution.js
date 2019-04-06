@@ -1,5 +1,4 @@
-// https://leetcode.com/problems/simplify-path/
-import Stack from '../Stack'
+import Stack from '../../Stack'
 
 const simplifyPath = path => {
   const arr = path.split('/')

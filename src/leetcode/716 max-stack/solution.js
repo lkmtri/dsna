@@ -1,5 +1,4 @@
-// https://leetcode.com/problems/max-stack
-import Stack from '../Stack'
+import Stack from '../../Stack'
 
 function MaxStack() {
   this._stack = new Stack()

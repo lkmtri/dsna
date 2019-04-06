@@ -1,4 +1,3 @@
-// https://leetcode.com/problems/min-stack/
 function MinStack() {
   this._stack = []
   this._min = []
