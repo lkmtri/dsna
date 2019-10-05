@@ -1,4 +1,4 @@
-String.prototype.hashCode = function() {
+String.prototype.hashCode = function () {
   var hash = 0,
     i,
     chr
@@ -20,5 +20,5 @@ const longestPalindrome = s => {
     to[i] = substring(s.length - i, s.length).hashCode()
   }
 
-  for (let i = 0; i < s.length; i += 1) {}
+  for (let i = 0; i < s.length; i += 1) { }
 }
