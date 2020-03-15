@@ -5,6 +5,5 @@
   "prettier.semi": false,
   "prettier.singleQuote": true,
   "prettier.requireConfig": true,
-  "eslint.packageManager": "yarn",
-  "prettier.eslintIntegration": true
+  "eslint.packageManager": "yarn"
 }
